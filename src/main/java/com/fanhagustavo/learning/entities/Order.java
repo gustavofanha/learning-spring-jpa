@@ -1,7 +1,6 @@
 package com.fanhagustavo.learning.entities;
 
 import com.fanhagustavo.learning.entities.enums.OrderStatus;
-import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 
 import java.io.Serializable;
