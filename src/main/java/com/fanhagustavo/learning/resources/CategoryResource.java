@@ -1,7 +1,6 @@
 package com.fanhagustavo.learning.resources;
 
 import com.fanhagustavo.learning.entities.Category;
-import com.fanhagustavo.learning.entities.User;
 import com.fanhagustavo.learning.services.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
