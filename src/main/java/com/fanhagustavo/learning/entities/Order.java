@@ -39,6 +39,14 @@ public class Order {
         this.client = client;
     }
 
+    public double getTotal() {
+        double total = 0;
+        for (OrderItem x : items) {
+           total += x.getSubTotal();
+        }
+        return total;
+    }
+
     public Long getId() {
         return id;
     }
